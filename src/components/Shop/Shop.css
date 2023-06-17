@@ -1,0 +1,15 @@
+.shpo-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin:  100px ;
+}
+@media screen and (max-width: 1200px) {
+    .shpo-container{
+        grid-template-columns: 3fr 1fr;
+    }    
+}
+.porducts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
